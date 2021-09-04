@@ -1,0 +1,74 @@
+@import '../base/variables';
+@import '../base/mixins';
+
+.header-bg{    
+    height: 80rem;
+    background-image: url("../img/imagenbg4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;    
+}
+
+
+/* navegacion */
+.nav-bg{
+    background-color: $black1;
+}
+
+.boton-color {
+    background-color:$white !important;    
+}
+
+
+.nav-text {
+    font-size: 2.5rem;
+    margin-left: auto;
+    padding: 2rem;
+    padding-right: 1rem;
+    font-family: $fuenteTextosPrincipal;
+    color: $white !important;
+}
+
+.nav-textname {
+    font-size: 2.5rem !important;   
+    font-family: $fuenteTextosPrincipal; 
+    text-transform: capitalize; 
+    color: $white !important;  
+    margin-left: 2rem; 
+}
+
+.nav-item {
+    margin-left: 2rem;
+}
+
+.efectoTitulo:hover {
+    color:$green !important;        
+    transition: all 1s;
+}
+
+
+
+
+
+.barra :hover {
+    color: $green;
+}
+
+.headerTexto {
+    text-align: center;
+    margin-top: 30rem;
+    padding-top: 2rem;
+    color: $white;
+    font-size: 5.5rem;
+    text-transform: capitalize;  
+    font-family: $fuenteTextosPrincipal;  
+}
+
+
+.efectoHeader:hover {       
+    transform: scale(1.2);  
+    transition: all 1s;
+}
+
+
+/* fin header y nav */

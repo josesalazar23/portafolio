@@ -1,0 +1,21 @@
+@import '../base/variables';
+
+
+/*  paguina tecnology */
+
+.tecnology {
+    height: 70rem;
+
+}
+
+.tecnologyInfo {
+    display: flex;
+    flex-direction: column;    
+    align-items: center;    
+    color:$white;
+    font-size: 3.5rem;
+    font-family: $fuenteTextosPrincipal;
+    text-transform: capitalize;
+}
+
+/* fin paguina tecnology */

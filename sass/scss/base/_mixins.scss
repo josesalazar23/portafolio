@@ -1,0 +1,25 @@
+/* mixins */
+
+
+
+
+@mixin telefono {
+    @media (min-width: $telefono) {
+        @content;
+    }
+}
+
+
+
+@mixin tablet {
+    @media (max-width: $tablet) {
+        @content;
+    }
+}
+
+
+@mixin telefono {
+    @media (min-width: $desktop) {
+        @content;
+    }
+}
